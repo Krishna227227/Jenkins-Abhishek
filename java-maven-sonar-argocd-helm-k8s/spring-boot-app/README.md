@@ -24,16 +24,16 @@ mvn clean package
 The above maven target stroes the artifacts to the `target` directory. You can either execute the artifact on your local machine
 (or) run it as a Docker container.
 
-** Note: To avoid issues with local setup, Java versions and other dependencies, I would recommend the docker way. **
+** Note: To avoid issues with local setup, Java versions and other dependencies, I would recommend the docker way (2). **
 
 
-### Execute locally (Java 11 needed) and access the application on http://localhost:8080
+### 1. Execute locally (Java 11 needed) and access the application on http://localhost:8080
 
 ```
 java -jar target/spring-boot-web.jar
 ```
 
-### The Docker way
+### 2. The Docker way
 
 Build the Docker Image
 
