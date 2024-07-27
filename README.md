@@ -62,6 +62,7 @@ sudo apt-get install jenkins
 <img width="1187" alt="Screenshot 2023-02-01 at 12 42 01 PM" src="https://user-images.githubusercontent.com/43399466/215975712-2fc569cb-9d76-49b4-9345-d8b62187aa22.png">
 
 systemctl enable jenkins
+
 systemctl start jenkins
 
 ### Login to Jenkins using the below URL:
